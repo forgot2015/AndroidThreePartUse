@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 def androidSupportVersion = '27.1.1'
-def daggerVersion = '2.15'
+def daggerVersion = '2.16'
 def rxBindingVersion = '2.1.1'
 
 android {
@@ -125,7 +125,7 @@ dependencies {
     implementation 'com.airbnb.android:lottie:2.5.1'
 
     //guava
-    implementation 'com.google.guava:guava:24.1-android'
+    implementation 'com.google.guava:guava:25.0-android'
 
     //扩展功能的BottomNavigationView
     implementation 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
